@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EntityFramework\Entities\**" />
+    <EmbeddedResource Remove="EntityFramework\Entities\**" />
+    <None Remove="EntityFramework\Entities\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="EntityFramework\RepositoryServices\BaseService.cs" />
+    <Compile Remove="EntityFramework\ServiceProxy.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eSchool.Application\eSchool.Application.csproj" />
+    <ProjectReference Include="..\eSchool.Domain\eSchool.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
