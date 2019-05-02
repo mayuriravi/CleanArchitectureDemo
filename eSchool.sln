@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eSchool.Presentation.WebApi", "eSchool.API\eSchool.Presentation.WebApi.csproj", "{45033A3A-6DEB-45F1-9D0D-08A776100744}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eSchool.Persistence", "eSchool.Infrastructure.SQLServer\eSchool.Persistence.csproj", "{3025FA44-64EC-4F63-A55F-6C34FF295D4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eSchool.Persistence", "eSchool.Persistence\eSchool.Persistence.csproj", "{3025FA44-64EC-4F63-A55F-6C34FF295D4A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eSchool.Infrastructure", "eSchool.Infrastructure\eSchool.Infrastructure.csproj", "{2DE1C826-3563-4036-BDFC-24EEF0EABB44}"
 EndProject

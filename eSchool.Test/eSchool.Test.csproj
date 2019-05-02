@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\eSchool.Infrastructure.SQLServer\eSchool.Persistence.csproj" />
+    <ProjectReference Include="..\eSchool.Persistence\eSchool.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
